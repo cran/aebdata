@@ -1,6 +1,6 @@
-93f65dcb252a550f7d90274b24b9403a *DESCRIPTION
+f545b0a4ffd7362ca157a8cee0f2dca0 *DESCRIPTION
 0f85ab67cd927dcf38e45deab42f0a97 *NAMESPACE
-f4c367b1c0ac2f452abd949236ee2691 *NEWS.md
+332e3c989a304abc4735ec4d3311fd9c *NEWS.md
 91b2db75f8e02a60b5ce84cee89407b6 *R/get.R
 4d845d9aa77808ff17bdb4dda3c929fb *R/list.R
 c31cb6757360efd50564831d6e47a323 *R/search.R
@@ -9,7 +9,7 @@ c31cb6757360efd50564831d6e47a323 *R/search.R
 161386cfb6a620a5fc07500f2c0e11dd *build/vignette.rds
 abc5fccf6f42f09d76856311d1c46fa1 *inst/doc/exploring-data.R
 3cb90b0644b5454db2d11598df95038f *inst/doc/exploring-data.Rmd
-320e37d4af49d5a7acaad46eac67cbf6 *inst/doc/exploring-data.html
+8f80d0cf8a7dc31a637f6b29966157d2 *inst/doc/exploring-data.html
 b204a3b6f04dcdc51647d687803f15f6 *man/get_series.Rd
 6d693e276bb268b5ff05d7598502cba1 *man/list_series.Rd
 ea3ddf1c80fafe6c1027dc354d71104b *man/list_themes.Rd
@@ -17,7 +17,7 @@ ea3ddf1c80fafe6c1027dc354d71104b *man/list_themes.Rd
 da4d324da5ff5929f3a04029c356ac16 *tests/testthat.R
 832d63f5da1b1ae5e192ae83109cabe4 *tests/testthat/_data/get.rds
 403382944e32d338b081c107ef43a908 *tests/testthat/_data/list.rds
-4ca1c4d2f480b47b54d0182fdae812bc *tests/testthat/_data/search.rds
+ad1b22fac02c36449ddf42597ec6ba59 *tests/testthat/_data/search.rds
 3b33ea4f3d75fed792df48ff8c3e8856 *tests/testthat/test-get.R
 3a56607d4d60a9f8e1ecf0bcbb7df4ab *tests/testthat/test-list.R
 3dfa1b9eaa85c41d3b03a72becfc88a3 *tests/testthat/test-search.R
