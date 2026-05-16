@@ -8,14 +8,14 @@ knitr::opts_chunk$set(
 library(aebdata)
 
 ## ----list-themes, eval = FALSE------------------------------------------------
-#  list_themes()
+# list_themes()
 
 ## ----list-themes-knit, echo = FALSE-------------------------------------------
 list_themes() |>
   knitr::kable(format = "html")
 
 ## ----list-series, eval = FALSE------------------------------------------------
-#  list_series(theme_id = c(41,49))
+# list_series(theme_id = c(41,49))
 
 ## ----list-series-knit, echo = FALSE-------------------------------------------
 list_series(theme_id = c(41,49)) |>
@@ -25,7 +25,7 @@ list_series(theme_id = c(41,49)) |>
 downloaded_series <- get_series(series_id = c(240, 241))
 
 ## ----download-141, eval = FALSE-----------------------------------------------
-#  head(downloaded_series$`240`)
+# head(downloaded_series$`240`)
 
 ## ----download-141-knit, echo = FALSE------------------------------------------
 head(downloaded_series$`240`) |>
