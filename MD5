@@ -1,12 +1,12 @@
-cca45e05cac0d97ef935e974e072fb9d *DESCRIPTION
+24ae366fa8495d92a59b97223321cc95 *DESCRIPTION
 8998da5413026ba63361fc99ea15a3f3 *NAMESPACE
-caef8abc8acc97b2bdc927f7c83484c4 *NEWS.md
-1621180b7c77e91742753996d62f2734 *R/get.R
-ef054b569d2b873fbab5e11d2dc17dc0 *R/list.R
+2b5a5162dd67cc078b7a4ef84a87a84d *NEWS.md
+23a3e9d622c5c0f8f6154abcde72c1ef *R/get.R
+fb7bc5e2a6b3611409302d4a764d320d *R/list.R
 b72b45b35e7ecfb69cdc6d1d3bbca702 *R/search.R
 c1a88bb59685838e170469d7d92baf6c *R/utils.R
 8ecc1f77bc48889bb4a6e101b30b445c *README.md
-9e107ae687b6137552eaa9ce45e249cf *build/vignette.rds
+730e76e402409cd1111912c5a92c8d1d *build/vignette.rds
 74bce17c53ad6f248ad154327a477b72 *inst/doc/exploring-data.R
 19a680f2c0bef3e49db587c4920095d9 *inst/doc/exploring-data.Rmd
 1162957bc6c1b193aa607ae02bdcf0a5 *inst/doc/exploring-data.html
