@@ -10,24 +10,24 @@ library(aebdata)
 ## ----list-themes, eval = FALSE------------------------------------------------
 # list_themes()
 
-## ----list-themes-knit, echo = FALSE-------------------------------------------
+## ----list-themes-knit, echo = FALSE, eval = aebdata:::test_connection_aeb("temas")----
 list_themes() |>
   knitr::kable(format = "html")
 
 ## ----list-series, eval = FALSE------------------------------------------------
 # list_series(theme_id = c(41,49))
 
-## ----list-series-knit, echo = FALSE-------------------------------------------
+## ----list-series-knit, echo = FALSE, eval = aebdata:::test_connection_aeb("temas") && aebdata:::test_connection_aeb()----
 list_series(theme_id = c(41,49)) |>
   knitr::kable(format = "html")
 
-## ----get-series---------------------------------------------------------------
+## ----get-series, eval = aebdata:::test_connection_aeb()-----------------------
 downloaded_series <- get_series(series_id = c(240, 241))
 
 ## ----download-141, eval = FALSE-----------------------------------------------
 # head(downloaded_series$`240`)
 
-## ----download-141-knit, echo = FALSE------------------------------------------
+## ----download-141-knit, echo = FALSE, eval = exists("downloaded_series")------
 head(downloaded_series$`240`) |>
   knitr::kable(format = "html")
 
